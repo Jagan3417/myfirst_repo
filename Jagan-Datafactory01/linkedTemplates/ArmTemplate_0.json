@@ -479,7 +479,9 @@
 							{
 								"referenceName": "Blobsource",
 								"type": "DatasetReference",
-								"parameters": {}
+								"parameters": {
+									"filename": "timezone"
+								}
 							}
 						],
 						"outputs": [
@@ -493,6 +495,12 @@
 				],
 				"policy": {
 					"elapsedTimeMetric": {}
+				},
+				"parameters": {
+					"filename": {
+						"type": "string",
+						"defaultValue": "timezone.csv"
+					}
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-07-21T15:32:32Z"
