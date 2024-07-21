@@ -83,7 +83,10 @@
 						"referenceName": "Blobsource",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "timezone.csv"
+							"filename": {
+								"value": "@pipeline().parameters.filename",
+								"type": "Expression"
+							}
 						}
 					}
 				],
@@ -95,6 +98,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"filename": {
+				"type": "string",
+				"defaultValue": "timezone.csv"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2024-07-21T15:32:32Z"
 	},
