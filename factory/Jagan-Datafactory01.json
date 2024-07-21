@@ -1,0 +1,9 @@
+{
+	"name": "Jagan-Datafactory01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dcb738d9-70e6-482d-bcae-5d87aeb250f7",
+		"tenantId": "bf897503-37ec-42e8-a8f2-7a106833eb2a"
+	}
+}
