@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Jagan-Datafactory01"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"LS_BLOB_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "adfpractice01.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "adf"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Admin123"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "adfpractice01.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "adf"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "Admin123"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "adf11.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "mydb01"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "Admin123"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-DPDLP9B"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "adfpractice"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "Jagan"
+		}
+	}
+}
