@@ -480,7 +480,7 @@
 								"referenceName": "Blobsource",
 								"type": "DatasetReference",
 								"parameters": {
-									"filename": "timezone"
+									"filename": "timezone.csv"
 								}
 							}
 						],
